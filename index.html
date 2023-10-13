@@ -4,12 +4,20 @@
   <link href="connect4.css" rel="stylesheet">
 </head>
 <body>
-
+<form action="">
+  <label for="P1Color">
+    Player 1 Color <input type="" name="P1Color" id="P1Color" required>
+  </label>
+  <label for="P2Color">
+    Player 2 Color <input type="" name="P2Color" id="P2Color" required>
+  </label>
+  <input type="submit" id = 'playGame' value="Play Game">
+</form>
 <div id="game">
   <table id="board"></table>
 </div>
 
-<script src="connect4.js"></script>
+<script src="connect4class.js"></script>
 
 </body>
 </html>
